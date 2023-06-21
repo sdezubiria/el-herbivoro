@@ -11,3 +11,185 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body{
+  background:black;
+}
+.myDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; /* 25% of the viewport height */
+  width: 100%;
+  background-size: 100%;
+  background-position: 0% 50%; /* Horizontal: 50% | Vertical: 0 */
+  background-repeat: no-repeat;
+  /* Add any other styles you need */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-10%);
+  }
+}
+
+.scroll-text {
+  color:white;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: scroll 120s linear infinite;
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 5vw;
+  margin:0;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CSS */
+.button-79 {
+  backface-visibility: hidden;
+  background: #000000;
+  outline: 1px solid white;
+  box-shadow: 0 0 0 1px white;
+  border: 0;
+  border-radius: .375rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,Helvetica,sans-serif;
+  font-size: 2vw;
+  font-weight: 700;
+  letter-spacing: -.01vw;
+  line-height: 1.3;
+  padding: 1vw 1vw;
+}
+.button-79:disabled {
+  color: #787878;
+  cursor: auto;
+}
+
+.button-79:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.button-79:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+.button-79:focus {
+  outline: 0 solid transparent;
+}
+
+.button-79:focus:before {
+  border-width: .125rem;
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.button-79:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.button-79:not(:disabled):active {
+  transform: translateY(.125rem);
+}
+.centered-buttons > * {
+  margin:2vw;
+}
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  display:flex;
+  align-items: center;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+svg {
+  width: 5vw;
+  height: 5vw;
+  margin-right: 5px;
+}
+
+span {
+  backface-visibility: hidden;
+  background: #000000;
+  border: 0;
+  border-radius: .375rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular, Helvetica, sans-serif;
+  font-size: 2vw;
+  font-weight: 700;
+  letter-spacing: -.01vw;
+  line-height: 1.3;
+  padding: 1vw 1vw;
+}
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid-item {
+    width: 25vw; /* Each item takes 25% of the container width to create a square */
+    height: 25vw;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    width: 100%;
+    padding-bottom: 100%; /* Maintain aspect ratio for square shape */
+    position: relative;
+  }
+  
+  .image {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    object-fit: cover; /* Scale the image to fit without distortion */
+  }
+  
