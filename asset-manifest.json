@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/el-herbivoro/static/css/main.2a419cab.css",
-    "main.js": "/el-herbivoro/static/js/main.db31b894.js",
+    "main.css": "/el-herbivoro/static/css/main.9fd1547d.css",
+    "main.js": "/el-herbivoro/static/js/main.da5b2755.js",
     "static/js/787.218bd84f.chunk.js": "/el-herbivoro/static/js/787.218bd84f.chunk.js",
     "static/media/il16.png": "/el-herbivoro/static/media/il16.865e792827a207ebeddf.png",
     "static/media/il17.png": "/el-herbivoro/static/media/il17.f5f336e21bd719e0cd20.png",
@@ -71,12 +71,12 @@
     "static/media/il07.png": "/el-herbivoro/static/media/il07.244a7dbf79bb5e14720c.png",
     "static/media/il18.png": "/el-herbivoro/static/media/il18.3abb3e10273208808bf1.png",
     "index.html": "/el-herbivoro/index.html",
-    "main.2a419cab.css.map": "/el-herbivoro/static/css/main.2a419cab.css.map",
-    "main.db31b894.js.map": "/el-herbivoro/static/js/main.db31b894.js.map",
+    "main.9fd1547d.css.map": "/el-herbivoro/static/css/main.9fd1547d.css.map",
+    "main.da5b2755.js.map": "/el-herbivoro/static/js/main.da5b2755.js.map",
     "787.218bd84f.chunk.js.map": "/el-herbivoro/static/js/787.218bd84f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a419cab.css",
-    "static/js/main.db31b894.js"
+    "static/css/main.9fd1547d.css",
+    "static/js/main.da5b2755.js"
   ]
 }
