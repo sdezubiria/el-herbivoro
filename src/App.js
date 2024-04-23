@@ -7,6 +7,7 @@ import Paintings from './Paintings.js';
 import Illustrations from './Illustrations.js';
 import About from './About.js';
 
+
 function App() {
   return (
     <Router>
