@@ -30,6 +30,11 @@ function Navbar() {
                     </Link>
                 </li>
                 <li>
+                    <Link to="/videos">
+                        <span>VIDEOS</span>
+                    </Link>
+                </li>
+                <li>
                     <Link to="/about-contact">
                         <span>ABOUT/CONTACT</span>
                     </Link>

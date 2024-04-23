@@ -57,6 +57,9 @@ function Home() {
           <Link to="/illustrations">
             <button class="button-79">ILLUSTRATIONS</button>
           </Link>
+          <Link to="/Videos">
+            <button class="button-79">VIDEOS</button>
+          </Link>
         </div>
         <div className="centered-buttons">
           <Link to="/about-contact">
